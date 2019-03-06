@@ -1,0 +1,7 @@
+custom: -t @custom_conversions
+home: -t @home_screen --format html --out report.html --format pretty
+main: -t @main_menu
+gestures: -t @gestures --format html --out report.html --format pretty
+
+any: -t @custom_conversions, @home_screen
+strict: -t @custom_conversions -t @home_screen

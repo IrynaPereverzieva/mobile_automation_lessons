@@ -1,3 +1,4 @@
+@main_menu
 Feature: As a user I want to convert units
 
   @see_menu
